@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WD3-from-page</title>
+    <link rel="stylesheet" href="WD3.css">
+    <script src="WD3.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<body>
+    <header class="header1">
+        <div class="logo"></div>
+    </header>
+    <!-- <section id="Home">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html"> Home</a>
+                <li>
+                    <a href="aboutus.html"> About-Us</a>
+                </li>
+                <li>
+                    <a href="ownerinfo.html">Membership</a>
+                </li>
+                <li>
+                    <a href="sports.html"> Sports</a>
+                </li>
+                <li>
+                    <a href="contact.html"> Contact-Us</a>
+                    
+                </li>
+            </ul>
+        </nav>
+    </section>
+-->
+
+    <div class="contact-us"> 
+        <section class="contact">
+            <div class="contact-wrapper">
+                <div class="contact-left"></div>
+                <div class="contact-right">
+                    <h1 class="contact-heading">Contact Form</h1>
+                    <p>
+                        <h2>Hi there, thanks for visiting our webpage. At this stage, Our site is currently under construction, in the meanwhile, 
+                        through this form please contact us for specified assisstance and business enquiries.
+                        Our main goal is to make sure that provided information of your personal detail will be keeping in safe database based on company's privacy policies and law. 
+                        Please find out our Policies for more information.</h2>
+                    </p>
+                    <button onclick="openPolicy();">Find out more</button>
+                    <form class="form" id="form">
+                        <div class="input-group">
+                            <input type="text" class="field" placeholder="Sam" id="firstname">
+                            <label class="input-lable">First Name
+                            </label>
+                            <i class="fas fa-user-check"></i>
+                            <i class="far fa-check-circle"></i>
+                            <i class="far fa-exclamation-circle"></i>
+                            <small>Error Message</small>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" placeholder="joojooE" id="familyname">
+                            <label class="input-lable">Family Name
+                            </label>
+                            <i class="fas fa-id-card"></i>
+                            <i class="far fa-check-circle"></i>
+                            <i class="far fa-exclamation-circle"></i>
+                            <small>Error Message</small>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" class="field" placeholder="Hello@gmail.com" oninput="checkValue(this)" id="email">
+                            <label class="input-lable">Email
+                            </label>
+                            <i class="fas fa-envelope-open-text"></i>
+                            <i class="far fa-check-circle"></i>
+                            <i class="far fa-exclamation-circle"></i>
+                            <small>Error Message</small>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" placeholder="Brizy" id="address">
+                            <label class="input-lable">Address 
+                            </label>
+                            <i class="fas fa-map-marked-alt"></i>
+                            <i class="far fa-check-circle"></i>
+                            <i class="far fa-exclamation-circle"></i>
+                            <small>Error Message</small>
+                            <div class="input-group">
+                                <input type="number" class="field" placeholder="123" id="phonenumber">
+                                <label class="input-lable">Phone Number  
+                                </label>
+                                <i class="fas fa-phone-volume"></i>
+                                <i class="far fa-check-circle"></i>
+                                <i class="far fa-exclamation-circle"></i>
+                                <small>Error Message</small>
+                            </div>
+                            <div class="input-group">
+                                <input type="password" class="field" id="pass1">
+                                <label class="input-lable">Password
+                                </label>
+                                <i class="fas fa-unlock-alt"></i>
+                                <i class="far fa-check-circle"></i>
+                                <i class="far fa-exclamation-circle"></i>
+                                <small>Error Message</small>
+                            </div>
+                            <div class="input-group">
+                                <input type="password" class="field" id="pass2">
+                                <label class="input-lable">Re-Type-Password 
+                                </label>
+                                <i class="fas fa-file-signature"></i>
+                                <i class="far fa-check-circle"></i>
+                                <i class="far fa-exclamation-circle"></i>
+                                <small>Error Message</small>
+                            </div>
+                        </div>
+                        <input type="submit" class="submit-btn" value="submit" />
+                    </form>
+                </div>
+            </div>
+    </div>
+    </section>
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h4>About US</h4>
+                <a href="#">Blog; Paul Humphres</a>
+                <a href="#">services</a>
+                <a href="#">Customers</a>
+                <a href="#">sessions</a>
+                <a href="#">Terms of condition</a>
+            </div>
+            <div class="footer-heading footer-2">
+                <h4>Contact US</h4>
+                <a href="#">Email Adress; nima.faghihzadeh@gmail.com</a>
+                <a href="#">support</a>
+                <a href="#">Contact</a>
+                <a href="#">Events</a>
+            </div>
+            <div class="footer-heading footer-3">
+                <h4> Social media</h4>
+                <a href="#">Instagram:____.nima.____ </a>
+                <a href="#">Facebook</a>
+                <a href="#">YouTube</a>
+                <a href="#">twitter</a>
+                <a href="#">telegram</a>
+            </div>
+            <!-- <div class="footer-email-form">
+                <h2>join our newst letter</h2>
+                <input type="email" placeholder="Enter your Email Addres" id="footer-email">
+                <input type="submit" value="sign up" id="footer-email-btn">
+            </div> -->
+        </div>
+    </div>  
+
+</body>
+
+</html>
